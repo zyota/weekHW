@@ -51,6 +51,7 @@ header nav ul .button{
     margin: 1px;
     transform: translateY(-10px);
 }
+/* main-------------------------*/
 main{
     display:flex;
     justify-content: space-evenly;
