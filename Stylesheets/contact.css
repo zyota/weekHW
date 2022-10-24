@@ -49,109 +49,6 @@ header nav ul .button{
     border-radius: 31px;
     transform: translateY(-20px);
 }
-/*section-------------------------------*/
-section{
-    padding: 176px 50px;
-    margin: 0 320px;
-    background: rgba(193, 228, 255, 0.3);
-    border-radius: 20px;
-}
-.h1 h1{
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 72px;
-    /* or 112% */
-
-    letter-spacing: -0.03em;
-
-    color: #1D3444;
-    padding: 176px 320px;
-}
-.h3-p{
-    display: flex;
-    justify-content: space-between;
-}
-.h3-p div{  
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-}
-.h3-p h3{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height, or 125% */
-
-    letter-spacing: -0.03em;
-
-    color: #0D1317;
-}
-.h3-p p{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    /* or 167% */
-
-
-    color: #5B5B5B;
-}
-.det{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 108.5%;
-    /* or 26px */
-    margin: 10px;
-    
-    color: #F58A07;
-}
-.req{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    /* or 125% */
-
-    letter-spacing: -0.03em;
-
-    color: #0D1317;
-    margin: 10px;
-}
-.det-req{
-    display: flex;
-    flex-direction: column;
-}
-.main{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 0;
-}
-.type-full{
-    display: flex;
-    flex-direction: column;
-    padding: 176px 320px;
-}
-.type{
-    display: flex;
-    flex: 1;
-}
-.type input{
-    width: 628px;
-    height: 54px;
-    background: rgba(210, 218, 237, 0.17);
-    border-radius: 27px;
-    margin: 5px;
-    text-align: center;
-}
-.type-2{
-    flex: 1;
-}
-.type-2 input{
-    width: 1426px;
-    height: 215px;
-    background: rgba(210, 218, 237, 0.17);
-    border-radius: 27px;
-    margin: 5px;
-    text-align: center;
-}
 /* footer--------------------------------------------------------*/
 footer{
     background: #DCEAF5;
@@ -271,4 +168,75 @@ footer{
     border-radius: 31px;
     width: 156;
     height: 54px;
+}
+/*input--------------------------------------*/
+.input input{
+    width: 605px;
+    height: 54px;
+    text-align: center;
+}
+.input .type{
+    width: 605px;
+    height: 160px;
+}
+.input-embed{
+    display: flex;
+    padding: 50px 520px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.h2-p{
+    padding: 176px 320px;
+}
+h1{
+    font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+letter-spacing: -0.03em;
+
+color: #1D3444;
+
+}
+main{
+    display: flex;
+    padding: 176px 320px;
+    justify-content: space-between;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main p{
+    margin-top: 30px;
+}
+h3{
+    font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.03em;
+
+color: #0D1317;
+}
+input{
+    border-radius: 20px;
+    margin: 10px;
+}
+button{
+    ont-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    background: #F58A07;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    width:119px;
+    height: 54px;
+    border-radius: 20px;
 }

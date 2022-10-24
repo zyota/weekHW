@@ -41,15 +41,14 @@ nav ul li{
     font-size: 16px;
     font-weight: 600;
     font-family: poppins;
+    text-decoration: none;
 }
-header nav ul .button{
-    border: 10px solid rgba(245, 138, 7, 0.1);
+header button{
     color:#F58A07;
-    background-color:rgba(245, 138, 7, 0.1);
     cursor: pointer;
     border-radius: 31px;
-    margin: 1px;
-    transform: translateY(-10px);
+    width:100px;
+    height: 30px;
 }
 /* main-------------------------*/
 main{
