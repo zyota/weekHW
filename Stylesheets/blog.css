@@ -45,6 +45,10 @@ header nav ul .button{
     border-radius: 31px;
     transform: translateY(-20px);
 }
+ul a{
+    text-decoration: none;
+    list-style-type: none;
+}
 /*main------------------------------------------------------------*/
 #card{
     padding: 128px 320px;
