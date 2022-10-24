@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../HW2"
+		},
+		{
+			"path": "../1"
+		},
+		{
+			"path": "../w2d4workfile"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weekHW"
+	}
+}
